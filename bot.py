@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Put your token here (or load from env)
-BOT_TOKEN = "8460678917:AAHNV0v_-CuEstMbu17ZrHFYl8z37ttEfRg"
+BOT_TOKEN = "Your API Token Here"
 
 # Local video files (same folder)
 VIDEO_FILES = ["video1.mp4", "video2.mp4", "video3.mp4"]
