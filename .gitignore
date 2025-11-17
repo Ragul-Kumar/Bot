@@ -1,1 +1,39 @@
-venv
+# --- Python cache files ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+.eggs/
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+
+# --- VS Code workspace ---
+.vscode/
+*.code-workspace
+
+# --- Logs & temp files ---
+*.log
+*.tmp
+*.cache/
+.cache/
+
+# --- OS-specific files ---
+# Linux temporary files
+*~
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+
+# --- Docker ---
+docker-compose.override.yml
+
+# --- DO NOT IGNORE VIDEOS ---
+# (Keeping .mp4, .mov, .mkv — because you need them)
+# So nothing added here
